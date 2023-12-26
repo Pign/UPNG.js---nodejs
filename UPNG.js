@@ -1,4 +1,4 @@
-
+var pako = require('pako');
 
 var UPNG = (function() {
 	
@@ -1223,3 +1223,4 @@ if(G>r)r=G;i++}while(i<y){A[i<<1]=0;A[(i<<1)+1]=0;i++}return r}return v}();
 	UPNG.quantize.getNearest=getNearest;
 })();
 
+module.exports = UPNG;
